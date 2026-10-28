@@ -1,0 +1,10 @@
+.section {
+  padding: 5rem 0;
+  background: var(--surface-2);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}

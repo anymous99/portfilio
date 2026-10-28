@@ -1,0 +1,48 @@
+.section {
+  padding: 5rem 0;
+}
+
+.timelineItem {
+  border-left: 2px solid var(--accent);
+  padding-left: 1.25rem;
+  margin-left: 0.5rem;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.header h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.header h3 span {
+  color: var(--accent);
+}
+
+.period {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.location {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.15rem;
+}
+
+.list {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  list-style: disc;
+}
+.list li + li {
+  margin-top: 0.4rem;
+}
